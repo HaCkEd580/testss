@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="149.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ComboBox fx:id="red_color" layoutX="14.0" layoutY="50.0" onAction="#action" prefWidth="150.0" />
+      <ColorPicker fx:id="color" layoutX="212.0" layoutY="104.0" />
+      <ComboBox fx:id="green_color" layoutX="178.0" layoutY="50.0" onAction="#action" prefWidth="150.0" />
+      <ComboBox fx:id="blue_color" layoutX="340.0" layoutY="50.0" onAction="#action" prefWidth="150.0" />
+      <Label fx:id="red" layoutX="79.0" layoutY="24.0" text="Red" />
+      <Label fx:id="green" layoutX="236.0" layoutY="24.0" text="Green" />
+      <Label fx:id="blue" layoutX="404.0" layoutY="24.0" text="Blue" />
+      <TextField fx:id="rgbC" layoutX="14.0" layoutY="75.0" prefHeight="25.0" prefWidth="475.0" />
+   </children>
+</AnchorPane>
